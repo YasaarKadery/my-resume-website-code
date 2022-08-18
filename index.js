@@ -18,14 +18,9 @@ const putData = async () => {
    numVisitors = data['body']['num']['N']
    counterContainer.innerHTML = numVisitors;
    
-};  
+};
+putData();
 
-
-addEventListener('load', (event) => {
-    //when the page loads, call this function
-    putData();
-    
-});
 
 
 
