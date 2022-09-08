@@ -16,7 +16,7 @@ const putData = async () => {
     });
 
    const data = await response.json();
-   numVisitors = data['body']['num']['N']
+   numVisitors = data['body']
    counterContainer.innerHTML = numVisitors;
    
 };
